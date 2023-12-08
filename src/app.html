@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Hotel Mirage</title>
+		%sveltekit.head%
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			.footer {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: #d49313;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #bcbdb8;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #eec981;
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #000000;
+  transition: all 0.5s ease;
+}
+
+.credit {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  background: #ffffff;
+}
+
+.credit span {
+  color: #000000;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.social-link a:hover {
+  background-color: #eec981;
+}
+
+@media (max-width: 991px) {
+  .footer-row {
+    text-align: center;
+  }
+
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+		  <center>
+			<footer class="footer">
+			  <div class="footer-row">
+				<div class="footer-links">
+				  <h4>NECESITAS AYUDA?</h4>
+				  <ul>
+					<li>
+					  <a href="#"
+						>Llamanos
+						<br />
+						+51 964 882 857
+					  </a>
+					</li>
+					<li>
+					  <a href="#"
+						>Escríbenos
+						<br />
+						Mirage@gmail.com
+					  </a>
+					</li>
+				  </ul>
+				</div>
+	  
+				<div class="footer-links">
+				  <h4>NUESTROS HOTELES</h4>
+				  <ul>
+					<li>
+					  <a href="#">Trujillo | Av. El Golf 591 </a>
+					</li>
+					<li>
+					  <a href="#">Trujillo | Victor Fajardo 411 </a>
+					</li>
+				  </ul>
+				</div>
+	  
+				<div class="footer-links">
+				  <h4>LEGAL</h4>
+				  <ul>
+					<li><a href="#">Aviso Legal</a></li>
+					<li><a href="#">Política de Cookies</a></li>
+					<li><a href="#">Política de Privacidad</a></li>
+					<li><a href="#">Política de Uso</a></li>
+				  </ul>
+				</div>
+	  
+				<div class="footer-links">
+				  <h4>Siguenos</h4>
+				  <div class="social-link">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-whatsapp"></i></a>
+				  </div>
+				</div>
+			  </div>
+			</footer>
+		  </center>
+		  <hr style="color: white" />
+		  <div class="credit">
+			© 2023 - Hotel Mirage - Todos los derechos reservados
+		  </div>
+	  
+		  <script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		  ></script>
+		  <script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		  ></script>
+	</body>
+</html>
