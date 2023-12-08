@@ -331,148 +331,6 @@
   margin-right: 5px; /* Espacio entre el nombre y el icono */
 }
 
-.banner {
-  position: relative;
-  width: 100%;
-  height: 800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background-image: url("/Imagenes/ssdsdaubovskiy-5997983.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.background-image {
-  position: absolute;
-  width: 60%; /* Tamaño de la imagen o ajusta según necesites */
-  height: 100%; /* Ajusta según tu diseño */
-  background-size: cover;
-  background-position: center;
-  right: 0;
-}
-
-.semi-circle {
-  width: 18%;
-  height: 100%;
-  border-radius: 0 50% 50% 0; /* Forma el semicírculo */
-  background-color: #e3eded;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.semi-circle::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #e3eded;
-  border-radius: 0 50% 50% 0; /* Forma el semicírculo */
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-}
-
-.content-banner {
-  position: absolute;
-  top: 50%;
-  left: 25%; /* Ajusta el espacio entre el círculo y el texto */
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: black;
-}
-
-
-.text-content {
-  text-align:center; /* Centrar el texto */
-  color: #000000; /* Color del texto */
-}
-
-.text-content h1 {
-  text-align: center;
-  font-size: 3em; /* Tamaño grande para el título */
-  margin-bottom: 10px; /* Espacio inferior */
-  font-family: "Ubuntu", sans-serif;
-}
-
-.text-content h4 {
-  text-align: center;
-  font-size: 1em; /* Tamaño grande para la información de contacto */
-  margin-top: 0;
-  margin-left: 30px; /* Eliminar margen superior */
-  opacity: 0.8; /* Opacidad reducida para la información secundaria */
-  font-family: "Ubuntu", sans-serif;
-}
-
-
-
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #eec981; /* Fondo ligeramente transparente */
-  padding: 20px;
-  border-radius: 15px;
-  backdrop-filter: blur(5px); /* Efecto de desenfoque */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-/* Estilos para los inputs y etiquetas */
-.location-input,
-.date-input,
-.guests-input label,
-.guests-input input {
-  margin: 5px;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.9);
-  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-/* Estilos para el botón */
-.search-button {
-  padding: 15px 30px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease-in-out;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-.search-button:hover {
-  background-color: #0056b3;
-}
-
-/* Efectos de hover en inputs */
-.location-input:focus,
-.date-input:focus,
-.guests-input label:hover,
-.guests-input input:focus {
-  border-color: #007bff;
-  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
-}
-
-.location-input {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-/* Estilos para el select cuando está abierto */
-.location-input:focus {
-  border-color: #007bff;
-  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
-}
 
 .container {
   text-align: center;
@@ -496,13 +354,7 @@
   align-items: center;
 }
 
-.room-image {
-  width: 800px; /* Ancho */
-  height: 600px; /* Alto */
-  margin-right: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
+
 
 .Iconos {
   padding: 0px, 50px;
@@ -521,9 +373,7 @@
   margin: 0px;
 }
 
-#icono-mobile {
-  border: none;
-}
+
 
 .Contenido-iconos div ion-icon {
   color: #000000;
@@ -575,30 +425,7 @@
   margin: 0 auto;
 }
 
-.footer {
-  background-color: #ffffff;
-  padding: 50px 0;
-}
 
-.footer-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-links {
-  width: 25%;
-  padding: 0 15px;
-}
-
-.footer-links h4 {
-  font-size: 20px;
-  color: #d49313;
-  margin-bottom: 25px;
-  font-weight: 500;
-  border-bottom: 2px solid #bcbdb8;
-  padding-bottom: 10px;
-  display: inline-block;
-}
 
 .footer-links ul li a {
   font-size: 18px;
@@ -613,49 +440,6 @@
   color: #eec981;
   padding-left: 6px;
 }
-
-.social-link a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #000000;
-  transition: all 0.5s ease;
-}
-
-.credit {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1rem;
-  color: rgb(0, 0, 0);
-  font-family: "Ubuntu", sans-serif;
-  background: #ffffff;
-}
-
-.credit span {
-  color: #000000;
-  font-family: "Ubuntu", sans-serif;
-}
-
-.social-link a:hover {
-  background-color: #eec981;
-}
-
-@media (max-width: 991px) {
-  .footer-row {
-    text-align: center;
-  }
-
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
-
 button.precio {
   padding: 10px 20px;
   background-color: #eec981;

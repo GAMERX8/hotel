@@ -210,19 +210,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-image: url("/pexels-max-rahubovskiy-5997983.jpg");
+  background-image: url("/static/pexels-max-rahubovskiy-5998043.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.background-image {
-  position: absolute;
-  width: 60%; /* Tamaño de la imagen o ajusta según necesites */
-  height: 100%; /* Ajusta según tu diseño */
-  background-size: cover;
-  background-position: center;
-  right: 0;
-}
+
 
 .semi-circle {
   width: 18%;
@@ -401,57 +394,14 @@
   margin: 10px 0px;
 }
 
-.offer-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.offer-image {
-  width: 300px; /* Ancho de la imagen */
-  margin-right: 20px; /* Espacio entre la imagen y el texto */
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-.offer-description {
-  max-width: 300px;
-}
-
-.offer-description p {
-  font-size: 16px;
-  color: #333;
-}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.footer {
-  background-color: #ffffff;
-  padding: 50px 0;
-}
 
-.footer-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.footer-links {
-  width: 25%;
-  padding: 0 15px;
-}
-
-.footer-links h4 {
-  font-size: 20px;
-  color: #d49313;
-  margin-bottom: 25px;
-  font-weight: 500;
-  border-bottom: 2px solid #bcbdb8;
-  padding-bottom: 10px;
-  display: inline-block;
-}
 
 .footer-links ul li a {
   font-size: 18px;
@@ -466,69 +416,4 @@
   color: #eec981;
   padding-left: 6px;
 }
-
-.social-link a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #000000;
-  transition: all 0.5s ease;
-}
-
-.credit {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1rem;
-  color: rgb(0, 0, 0);
-  font-family: "Ubuntu", sans-serif;
-  background: #ffffff;
-}
-
-.credit span {
-  color: #000000;
-  font-family: "Ubuntu", sans-serif;
-}
-
-.social-link a:hover {
-  background-color: #eec981;
-}
-
-@media (max-width: 991px) {
-  .footer-row {
-    text-align: center;
-  }
-
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
-
-button.precio {
-  padding: 10px 20px;
-  background-color: #eec981;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-  font-family: "Ubuntu", sans-serif;
-}
-
-button.precio:hover {
-  background-color: #d49313;
-}
-
-.offer-description p{
-  font-family: "Ubuntu", sans-serif;
-}
-
-
-
 </style>

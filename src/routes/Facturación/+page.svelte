@@ -354,83 +354,11 @@
   padding-left: 6px;
 }
 
-.social-link a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #000000;
-  transition: all 0.5s ease;
-}
 
-.credit {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1rem;
-  color: rgb(0, 0, 0);
-  font-family: "Ubuntu", sans-serif;
-  background: #ffffff;
-}
-
-.credit span {
-  color: #000000;
-  font-family: "Ubuntu", sans-serif;
-}
-
-.social-link a:hover {
-  background-color: #eec981;
-}
-
-@media (max-width: 991px) {
-  .footer-row {
-    text-align: center;
-  }
-
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
-
-button.precio {
-  padding: 10px 20px;
-  background-color: #eec981;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-  font-family: "Ubuntu", sans-serif;
-}
-
-button.precio:hover {
-  background-color: #d49313;
-}
-
-.offer-description p{
-  font-family: "Ubuntu", sans-serif;
-}
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-
-  /*background: #00ff00;*/
-  background: url("/Imagenes/Imagen-Inicio.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 .banana {
   background: #f5f3e9;
-  background-image: url(/Imagenes/pexels-max-rahubovskiy-5997983.jpg);
+  background-image: url("/pexels-max-rahubovskiy-5997983.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
